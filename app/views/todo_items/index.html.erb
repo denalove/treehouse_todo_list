@@ -16,7 +16,7 @@
 		
 		<td>
 			<% if todo_item.completed? %>
-				<%= todo_item.completed_at %>
+				<%= time_ago_in_words(todo_item.completed_at) %> ago
 			<% else %>
 				<%= link_to "Mark Complete", complete_todo_list_todo_item_path(todo_item), method: :patch %>
 				

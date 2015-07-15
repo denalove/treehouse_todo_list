@@ -17,3 +17,44 @@ a {
 	text-decoration: none;
 	text-align: center;
 }
+
+.function-list-button {
+	background-color: #00CCFF;
+	border-radius: 25px;
+	border: 1px solid #00CCFF;
+	
+}
+
+.function-list-button:hover {
+	background-color: #3366FF;
+}
+
+.function-show-btn {
+	background-color: #00CCFF;
+	border-radius: 25px;
+	border: 1px solid #00CCFF;
+}
+
+.function-show-btn:hover {
+	background-color: #3366FF;
+}
+
+.function-edit-btn {
+	background-color: #00CCFF;
+	border-radius: 25px;
+	border: 1px solid #00CCFF;
+}
+
+.function-edit-btn:hover {
+	background-color: #3366FF;
+}
+
+.function-delete-btn {
+	background-color: #00CCFF;
+	border-radius: 25px;
+	border: 1px solid #00CCFF;
+}
+
+.function-delete-btn:hover {
+	background-color: #3366FF;
+}

@@ -14,6 +14,7 @@
  *= require_self
  */
 
+
  body {
  	font-family: 'Slabo 27px', serif;
 
@@ -84,19 +85,19 @@ div.nav ul li a {
 	text-align: center;
 }
 
-div.nav ul li a:hover {
+/*div.nav ul li a:hover {
 	background: #aaa;
 	color: #eee;
-}
+}*/
 
 .btn a {
 	padding: 0.5em;
 	text-decoration: none;
 }
-.btn a:hover {
+/*.btn a:hover {
 	background: orange;
-}
+}*/
 li {
 	text-decoration: none;
-	text-align: center;
+	text-align: left;
 }
